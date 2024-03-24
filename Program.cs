@@ -77,7 +77,7 @@ namespace ConsoleApp3
                     //   Stopwatch stopwatch = Stopwatch.StartNew();
                     await DeriveAndCheckBalance(listAddress, filePath2, mnemonicWords);
                     //  stopwatch.Stop();
-                    Console.WriteLine($"[{count}]-{seedNum}");
+                    Console.WriteLine($"[{count}]-{address}");
 
                 }
                 catch (Exception e)
